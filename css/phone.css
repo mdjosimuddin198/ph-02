@@ -40,3 +40,10 @@
   top: -45px;
   margin: 5px;
 }
+/* footer section  */
+.footer-section {
+  flex-direction: column;
+}
+.foter-item {
+  width: 80%;
+}
