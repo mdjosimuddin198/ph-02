@@ -10,6 +10,9 @@
 .hide {
   display: none;
 }
+.gray {
+  color: #666666;
+}
 .btn {
   background: black;
   color: white;
@@ -106,7 +109,6 @@ ul li:nth-child(5) a {
   background: url("../assets/bg.png");
   background-repeat: no-repeat;
   object-fit: contain;
-  /* height: 771px; */
 }
 .container-card {
   display: grid;
@@ -117,7 +119,7 @@ ul li:nth-child(5) a {
 }
 .card {
   border-radius: 10px;
-  /* padding: 20px; */
+  padding: 10px;
   text-align: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -156,4 +158,72 @@ ul li:nth-child(5) a {
   margin: 5px;
   border-radius: 50%;
   font-size: 1.4rem;
+}
+
+/* our story section start  */
+.main-section {
+  background: url("../assets/bg.png"), linear-gradient(to top, #ffefba, #ffffff);
+  background-repeat: no-repeat;
+  object-fit: contain;
+  padding: 90px 50px;
+}
+.our-story-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* grid-template-rows: repeat(2, 1fr); */
+
+  /* padding: 50px; */
+  border-radius: 8px;
+  gap: 1rem;
+}
+
+.story-card {
+  background: white;
+  border-radius: 15px;
+}
+.story-card h2 {
+  text-align: center;
+  padding: 10px;
+}
+.title-discription-story-card {
+  padding: 30px 20px;
+}
+.story-card img {
+  width: 100%;
+  border-radius: 15px;
+}
+.story-card1 {
+  grid-row: 1 / span 2;
+  grid-column: 1 / span 2;
+}
+
+.story-card1 p,
+.story-card1 h2 {
+  text-align: left;
+  margin-top: 20px;
+}
+.story-btn {
+  background: #95b226;
+  color: white;
+  border: none;
+  padding: 10px 40px;
+  border-radius: 15px;
+  font-size: 1.04rem;
+  margin-top: 20px;
+  margin-left: 10px;
+  position: relative;
+  left: 20px;
+  top: -45px;
+}
+#story-1-btn {
+  background: #3cd8e8;
+}
+#story-3-btn {
+  background: #5d58f0;
+}
+.view-all {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
 }

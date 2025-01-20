@@ -27,3 +27,16 @@
 .container-card {
   grid-template-columns: repeat(1, 1fr);
 }
+/* story section  */
+.our-story-section {
+  grid-template-columns: repeat(2, 50%);
+}
+
+/* btn  */
+.story-btn {
+  padding: 3px 5px;
+
+  left: -10px;
+  top: -45px;
+  margin: 5px;
+}
