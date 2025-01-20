@@ -1,0 +1,99 @@
+/* google font  */
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+/* css reset  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* utility class */
+.hide {
+  display: none;
+}
+.btn {
+  background: black;
+  color: white;
+  border: none;
+  padding: 10px 50px;
+  border-radius: 15px;
+  font-size: 1.04rem;
+  margin-top: 20px;
+}
+
+body {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: blockquote;
+  font-style: normal;
+  max-width: 1450px;
+  margin: 0px auto;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo h2 {
+  padding: 5px;
+}
+/* navbar section satrt  */
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.navbar ul {
+  display: flex;
+}
+.navbar ul li {
+  list-style: none;
+  margin: 10px;
+}
+.navbar li a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+}
+.nav-btn {
+  background: #fea301;
+  color: white;
+  border: none;
+  padding: 10px 50px;
+  border-radius: 15px;
+  font-size: 1.04rem;
+}
+
+ul li:nth-child(2) a {
+  color: #fea301;
+}
+ul li:nth-child(3) a {
+  color: #01acfd;
+}
+ul li:nth-child(4) a {
+  color: #05d4df;
+}
+ul li:nth-child(5) a {
+  color: #5d58ef;
+}
+
+/* hero section srart  */
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.title-discription-section {
+  width: 40%;
+}
+.title-discription-section h2 {
+  font-size: 3.1rem;
+}
+.title-color {
+  color: #fea301;
+}
+.title-color-2 {
+  color: #01acfd;
+}
+.banar img {
+  width: 100%;
+}

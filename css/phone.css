@@ -1,0 +1,25 @@
+/* navbar section  */
+.hide {
+  display: block;
+  font-size: 1.5rem;
+}
+.block {
+  display: none;
+}
+
+.navbar {
+  justify-content: space-between;
+  border-bottom: 1px solid #fea301;
+  padding-bottom: 10px;
+}
+/* hero section  */
+.hero-section {
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+}
+.title-discription-section {
+  width: 100%;
+  text-align: center;
+}
