@@ -19,7 +19,12 @@
   font-size: 1.04rem;
   margin-top: 20px;
 }
+.center {
+  text-align: center;
+  padding-top: 40px;
 
+  font-size: 2.3rem;
+}
 body {
   font-family: "Quicksand", serif;
   font-optical-sizing: auto;
@@ -96,4 +101,59 @@ ul li:nth-child(5) a {
 }
 .banar img {
   width: 100%;
+}
+.standard-curriculum-section {
+  background: url("../assets/bg.png");
+  background-repeat: no-repeat;
+  object-fit: contain;
+  /* height: 771px; */
+}
+.container-card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+
+  margin: 70px 50px;
+}
+.card {
+  border-radius: 10px;
+  /* padding: 20px; */
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.card a {
+  text-decoration: none;
+}
+
+.card1 {
+  background: linear-gradient(to bottom, #def5ff, #ffffff);
+}
+.card2 {
+  background: linear-gradient(to bottom, #fff4dc, #ffffff);
+}
+.card3 {
+  background: linear-gradient(to bottom, #eee1ff, #ffffff);
+}
+.card1 a {
+  color: #64c8ff;
+}
+.card2 a {
+  color: #fea301;
+}
+.card3 a {
+  color: #8700ff;
+}
+
+/* angle icon  */
+.arrow-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.arrow-icon i {
+  background: #fea301;
+  padding: 12px 15px;
+  margin: 5px;
+  border-radius: 50%;
+  font-size: 1.4rem;
 }

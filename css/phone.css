@@ -23,3 +23,7 @@
   width: 100%;
   text-align: center;
 }
+/* card section  */
+.container-card {
+  grid-template-columns: repeat(1, 1fr);
+}
