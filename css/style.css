@@ -119,7 +119,7 @@ ul li {
 }
 .card {
   border-radius: 10px;
-  padding: 10px;
+  padding: 30px 20px;
   text-align: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -128,13 +128,13 @@ ul li {
 }
 
 .card1 {
-  background: linear-gradient(to bottom, #def5ff, #ffffff);
+  background: linear-gradient(to bottom, #def5ff 40%, #ffffff);
 }
 .card2 {
-  background: linear-gradient(to bottom, #fff4dc, #ffffff);
+  background: linear-gradient(to bottom, #fff4dc 40%, #ffffff);
 }
 .card3 {
-  background: linear-gradient(to bottom, #eee1ff, #ffffff);
+  background: linear-gradient(to bottom, #eee1ff 40%, #ffffff);
 }
 .card1 a {
   color: #64c8ff;
