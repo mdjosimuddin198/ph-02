@@ -28,6 +28,13 @@
 
   font-size: 2.3rem;
 }
+button {
+  transition: transform 3s ease;
+}
+button:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
 body {
   font-family: "Quicksand", serif;
   font-optical-sizing: auto;
@@ -84,6 +91,12 @@ ul li {
   color: #5d58ef;
 }
 
+/* marquee text  */
+.marquee-text {
+  color: #05d4df;
+  padding-top: 10px;
+  font-size: 1.2rem;
+}
 /* hero section srart  */
 .hero-section {
   display: flex;
